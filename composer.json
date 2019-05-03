@@ -1,5 +1,5 @@
 {
-    "name": "phlak/coffee-codename",
+    "name": "phlak/cafelias",
     "description": "Generate random codenames based on coffee drinks",
     "license": "MIT",
     "authors": [
@@ -9,7 +9,7 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/PHLAK/coffee-codenames/issues"
+        "issues": "https://github.com/PHLAK/Cafelias/issues"
     },
     "require": {
         "php": ">=7.0",
