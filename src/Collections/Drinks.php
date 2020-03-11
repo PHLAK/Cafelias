@@ -26,13 +26,15 @@ final class Drinks extends Collection
         'frappuccino',
         'french-press-coffee',
         'iced-coffee',
+        'iced-latte',
+        'iced-mocha',
         'irish-coffee',
         'latte',
         'lungo',
         'macchiato',
         'mocha',
         'pour-over',
-        'ristretto'
+        'ristretto',
     ];
 
     /**

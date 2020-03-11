@@ -32,10 +32,10 @@ class Codename
     }
 
     /**
-    * Convert the object to a string.
-    *
-    * @return string
-    */
+     * Convert the object to a string.
+     *
+     * @return string
+     */
     public function __toString() : string
     {
         return $this->codename;
