@@ -26,7 +26,7 @@ class Codename
      *
      * @return self
      */
-    public static function make() : self
+    public static function make(): self
     {
         return new static;
     }
@@ -36,7 +36,7 @@ class Codename
      *
      * @return string
      */
-    public function __toString() : string
+    public function __toString(): string
     {
         return $this->codename;
     }

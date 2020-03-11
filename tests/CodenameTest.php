@@ -1,7 +1,7 @@
 <?php
 
-use PHPUnit\Framework\TestCase;
 use PHLAK\Cafelias\Codename;
+use PHPUnit\Framework\TestCase;
 
 class CodenameTest extends TestCase
 {
