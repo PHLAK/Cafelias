@@ -20,6 +20,7 @@ final class Varriants extends Collection
         'creme-de-menth',
         'decaf',
         'double',
+        'english-toffee',
         'french-vanilla',
         'gingerbread',
         'grande',
@@ -40,7 +41,7 @@ final class Varriants extends Collection
         'triple',
         'vanilla',
         'venti',
-        'white-chocolate'
+        'white-chocolate',
     ];
 
     /**
