@@ -1,25 +1,25 @@
 <?php
 
 use PHLAK\Cafelias\Codename;
-use PHPUnit\Framework\TestCase;
+use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 class CodenameTest extends TestCase
 {
-    public function test_it_can_generate_a_codename()
+    public function testItCanGenerateACodename()
     {
         $codename = new Codename();
 
         $this->assertRegexp('/^([a-z]+)(?:-([a-z]+))+$/', (string) $codename);
     }
 
-    public function test_it_can_generate_a_codename_staticaly()
+    public function testItCanGenerateACodenameStaticaly()
     {
         $codename = Codename::make();
 
         $this->assertRegexp('/^([a-z]+)(?:-([a-z]+))+$/', (string) $codename);
     }
 
-    public function test_it_can_generate_a_codename_with_the_helper_method()
+    public function testItCanGenerateACodenameWithTheHelperMethod()
     {
         $codename = cafelias();
 
