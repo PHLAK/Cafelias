@@ -5,21 +5,21 @@ use Yoast\PHPUnitPolyfills\TestCases\TestCase;
 
 class CodenameTest extends TestCase
 {
-    public function testItCanGenerateACodename()
+    public function test_it_can_generate_a_codename()
     {
         $codename = new Codename();
 
         $this->assertMatchesRegularExpression('/^([a-z]+)(?:-([a-z]+))+$/', (string) $codename);
     }
 
-    public function testItCanGenerateACodenameStaticaly()
+    public function test_it_can_generate_a_codename_staticaly()
     {
         $codename = Codename::make();
 
         $this->assertMatchesRegularExpression('/^([a-z]+)(?:-([a-z]+))+$/', (string) $codename);
     }
 
-    public function testItCanGenerateACodenameWithTheHelperMethod()
+    public function test_it_can_generate_a_codename_with_the_helper_method()
     {
         $codename = cafelias();
 

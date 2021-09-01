@@ -41,8 +41,6 @@ final class Drinks extends Collection
      * Create a new Varriants collection.
      *
      * @param mixed $items
-     *
-     * @return void
      */
     public function __construct($items = null)
     {
