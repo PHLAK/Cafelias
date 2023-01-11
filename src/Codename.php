@@ -13,7 +13,10 @@ class Codename
     /** Create a new Codename object. */
     public function __construct()
     {
+        /** @var string $varriant */
         $varriant = (new Varriants)->random();
+
+        /** @var string $drink */
         $drink = (new Drinks)->random();
 
         $this->codename = "{$varriant}-{$drink}";
@@ -28,6 +31,6 @@ class Codename
     /** Create a new Codename object statically. */
     public static function make(): self
     {
-        return new static;
+        return new self;
     }
 }

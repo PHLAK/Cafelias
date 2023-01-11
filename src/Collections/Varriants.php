@@ -4,9 +4,10 @@ namespace PHLAK\Cafelias\Collections;
 
 use Tightenco\Collect\Support\Collection;
 
+/** @extends Collection<int, string> */
 final class Varriants extends Collection
 {
-    /** @var array The items contained in the collection. */
+    /** @var array<int, string> The items contained in the collection. */
     protected $items = [
         'almond',
         'brown-sugar',
@@ -44,11 +45,7 @@ final class Varriants extends Collection
         'white-chocolate',
     ];
 
-    /**
-     * Create a new Varriants collection.
-     *
-     * @param mixed $items
-     */
+    /** Create a new Varriants collection. */
     public function __construct($items = null)
     {
         if (isset($items)) {

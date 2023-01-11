@@ -4,9 +4,10 @@ namespace PHLAK\Cafelias\Collections;
 
 use Tightenco\Collect\Support\Collection;
 
+/** @extends Collection<int, string> */
 final class Drinks extends Collection
 {
-    /** @var array The items contained in the collection. */
+    /** @var array<int, string> The items contained in the collection. */
     protected $items = [
         'affogato',
         'americano',
@@ -37,11 +38,7 @@ final class Drinks extends Collection
         'ristretto',
     ];
 
-    /**
-     * Create a new Varriants collection.
-     *
-     * @param mixed $items
-     */
+    /** Create a new Drinks collection. */
     public function __construct($items = null)
     {
         if (isset($items)) {

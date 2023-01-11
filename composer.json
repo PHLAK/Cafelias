@@ -31,8 +31,8 @@
     },
     "require-dev": {
         "phlak/coding-standards": "^2.0",
+        "phpstan/phpstan": "^1.9",
         "psy/psysh": "^0.11",
-        "vimeo/psalm": "^4.1",
         "yoast/phpunit-polyfills": "^1.0"
     },
     "autoload": {
