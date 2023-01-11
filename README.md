@@ -18,7 +18,7 @@ Randomly generated coffee slugs -- by, [Chris Kankiewicz](https://www.ChrisKanki
 Requirements
 ------------
 
-  - [PHP](https://php.net) >= 7.2
+  - [PHP](https://php.net) >= 8.0
 
 Install with Composer
 ---------------------
